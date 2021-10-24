@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>ErgodicMage</Authors>
+    <Version>0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
