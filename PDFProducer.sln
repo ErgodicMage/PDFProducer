@@ -1,10 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31205.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69549063-79C0-4678-A699-1A029565FEA6}"
 	ProjectSection(SolutionItems) = preProject
+		PDFProducer Ideas.txt = PDFProducer Ideas.txt
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -14,9 +15,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Application
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{EA4EC0D6-F530-48B0-AE5E-E8833B2FE6BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFProducer.Templates", "src\Components\PDFProducer.Templates\PDFProducer.Templates.csproj", "{24AC2CD2-EBA5-4A5F-80F9-AC5DA09B8AEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDFProducer.Templates", "src\Components\PDFProducer.Templates\PDFProducer.Templates.csproj", "{24AC2CD2-EBA5-4A5F-80F9-AC5DA09B8AEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFProducer.Engine", "src\Components\PDFProducer.Engine\PDFProducer.Engine.csproj", "{882FC7A5-A682-44B5-850B-7758C30F77AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDFProducer.Engine", "src\Components\PDFProducer.Engine\PDFProducer.Engine.csproj", "{882FC7A5-A682-44B5-850B-7758C30F77AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{49CFE0EC-C1F5-4B5F-8866-0ABAD653A82C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{B7612F75-B759-4EF1-BE1B-24807E56CDB4}"
+	ProjectSection(SolutionItems) = preProject
+		Examples\Templates\Template v0.0.1.xml = Examples\Templates\Template v0.0.1.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{64C476A5-AC63-407E-966F-7C7CEBEB72D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateTests", "Tests\TemplateTests\TemplateTests.csproj", "{3849CC73-F70E-4221-BA40-940DCBCB6806}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +44,10 @@ Global
 		{882FC7A5-A682-44B5-850B-7758C30F77AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{882FC7A5-A682-44B5-850B-7758C30F77AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{882FC7A5-A682-44B5-850B-7758C30F77AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3849CC73-F70E-4221-BA40-940DCBCB6806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3849CC73-F70E-4221-BA40-940DCBCB6806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3849CC73-F70E-4221-BA40-940DCBCB6806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3849CC73-F70E-4221-BA40-940DCBCB6806}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +57,8 @@ Global
 		{EA4EC0D6-F530-48B0-AE5E-E8833B2FE6BD} = {1FF1D95A-31FE-46E0-B166-34110109102E}
 		{24AC2CD2-EBA5-4A5F-80F9-AC5DA09B8AEE} = {EA4EC0D6-F530-48B0-AE5E-E8833B2FE6BD}
 		{882FC7A5-A682-44B5-850B-7758C30F77AF} = {EA4EC0D6-F530-48B0-AE5E-E8833B2FE6BD}
+		{B7612F75-B759-4EF1-BE1B-24807E56CDB4} = {49CFE0EC-C1F5-4B5F-8866-0ABAD653A82C}
+		{3849CC73-F70E-4221-BA40-940DCBCB6806} = {64C476A5-AC63-407E-966F-7C7CEBEB72D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E92FFA58-9DB2-4A73-AD89-887D67487CBA}

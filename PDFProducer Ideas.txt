@@ -1,0 +1,32 @@
+Document
+	PDF meta data
+	Data Structures
+	Variables
+	Base Fonts
+	Images
+	Templates
+	Output Jobs
+	
+Page Layouts
+	Size
+	Orientation
+	Margins
+	Gutters
+	Headers
+	Footer
+	
+Template
+	Data Structures
+	Variables
+	Base Fonts
+	Images
+	Page Size
+	Margins
+	Headers
+	Footers
+	
+Variables types
+	Strings
+	Structures
+	File
+	

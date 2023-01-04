@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Template xmlns="https://github.com/ErgodicMage/PDFProducer">
+  <MetaData>
+    <Properties>
+      <Version>1.7</Version>
+    </Properties>
+    <Description>
+      <Title>Example Template</Title>
+      <Author>Ergodic Mage</Author>
+      <Subject>Experimental Serializer</Subject>
+      <Keywords>PDFProducer Template, Serializer, Experimental</Keywords>
+    </Description>
+  </MetaData>
+  <Document name="Document 1">
+    <Font name="arial" />
+    <Page name="Page 1">
+      <Description>The first page</Description>
+    </Page>
+    <Chapter name="Chapter 1">
+      <Font name="font1" />
+      <Title>Chapter Title 1</Title>
+      <Description>The first chapter</Description>
+      <Page name="Page 2">
+        <Font name="arial" />
+        <Description>The second page</Description>
+      </Page>
+    </Chapter>
+  </Document>
+  <Fonts>
+    <Font name="font1">
+      <FontName>Font 1</FontName>
+      <File>Font1.ttf</File>
+      <Embed>True</Embed>
+    </Font>
+    <Font name="arial">
+      <FontName>Arial</FontName>
+      <Embed>False</Embed>
+    </Font>
+  </Fonts>
+</Template>
